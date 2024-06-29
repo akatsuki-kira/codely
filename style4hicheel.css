@@ -1,0 +1,22 @@
+.tses-container{
+    background-color: bisque;
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.img1{
+    height: 650px;
+    width: 100vw;
+}
+div a{
+    text-decoration: none;
+}
+.doc{
+    padding: 30px;
+    font-size: 30px;
+    justify-content: space-around;
+    display: flex;    
+}
