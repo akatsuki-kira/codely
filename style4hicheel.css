@@ -1,22 +1,68 @@
-.tses-container{
-    background-color: bisque;
-    padding: 10px;
-    font-size: 25px;
-    display: flex;
-    justify-content: space-around;
-
-
+.tses {
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
 }
-.img1{
-    height: 650px;
-    width: 100vw;
+p {
+  font-size: 20px;
 }
-div a{
-    text-decoration: none;
+.img1 {
+  height: 580px;
+  width: 100vw;
 }
-.doc{
-    padding: 30px;
-    font-size: 30px;
-    justify-content: space-around;
-    display: flex;    
+div a {
+  text-decoration: none;
+}
+.doc {
+  padding: 30px;
+  font-size: 30px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.doc h5,
+.doc p {
+  margin: 0;
+}
+#nikelogo {
+  height: 50px;
+  width: 60px;
+  object-fit: cover;
+  margin-left: 30px;
+}
+.icons {
+  height: 20px;
+  width: 20px;
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.negheseg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: whitesmoke;
+  width: 100%;
+}
+#tses-container {
+  display: flex;
+}
+.box {
+  width: 60px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 20px;
 }
